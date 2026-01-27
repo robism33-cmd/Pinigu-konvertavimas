@@ -1,5 +1,118 @@
-select.toCurrency {
-  font-size: 16px;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  /* margin: 0 auto; */
+  /* padding: 0; */
+}
+.container {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: center;
+  color: #fff;
+  padding: 100px;
+}
+.imgPig {
+  padding-top: 100px;
+  max-width: 100%;
+}
+.contextBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 35%;
+  font-size: 40px;
+  /* margin-top: 15%; */
+  gap: 20px;
+}
+#toCurrency {
+  font-size: 24px;
   color: #007bff;
-  max-width: 3000px;
+  max-width: 500px;
+}
+#fromCurrency {
+  font-size: 24px;
+  color: #28a745;
+  max-width: 300px;
+}
+#convertBtn {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#convertBtn:hover {
+  background-color: #e0a800;
+}
+#returnBtn {
+  font-size: 16px;
+  padding: 5px 10px;
+  background-color: #6c757d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#result {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #fff;
+}
+#context {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 10px;
+  max-width: 400px;
+}
+option label {
+  background-color: #fff;
+  color: #000;
+  padding: 5px;
+  font-size: 16px;
+}
+#amount {
+  font-size: 24px;
+  padding: 5px;
+  width: 150px;
+  color: #000;
+}
+#controlBox {
+  display: flex;
+  gap: 50px;
+}
+#headFirst {
+  color: rgb(143, 29, 29);
+  font-size: 100px;
+  background-color: black;
+  line-height: 0px;
+  box-shadow: 3px 6px 3.4px 0px #38171440 inset;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+#headSecond {
+  color: white;
+  padding-top: 0px;
+  font-size: 70px;
+  margin-top: 0px;
+  line-height: 0px;
+  max-lines: 0px;
+  background-color: black;
+  box-shadow: 3px 6px 3.4px 0px #38171440 inset;
+}
+
+#headThird {
+  color: rgb(134, 50, 50);
+  background-color: black;
+  font-size: 20px;
+  line-height: 0px;
+  max-lines: 0px;
+  box-shadow: 3px 6px 3.4px 0px #38171440 inset;
+}
+p {
+  padding-top: 5px;
+  margin-top: 5px;
 }

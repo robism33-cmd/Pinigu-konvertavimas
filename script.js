@@ -1,5 +1,4 @@
 const amountInput = document.getElementById("amount");
-const currencyInput = document.getElementById("amount");
 const fromCurrency = document.getElementById("fromCurrency");
 const toCurrency = document.getElementById("toCurrency");
 const convertButton = document.getElementById("convertBtn");
