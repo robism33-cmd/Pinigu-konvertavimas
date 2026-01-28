@@ -135,6 +135,7 @@ label {
   font-size: 70px;
   margin-top: 0px;
   line-height: 0px;
+  letter-spacing: 10px;
   max-lines: 0px;
   background-color: black;
   box-shadow: 3px 6px 3.4px 0px #38171440 inset;
@@ -145,6 +146,7 @@ label {
   background-color: black;
   font-size: 20px;
   line-height: 10px;
+  letter-spacing: 5px;
   max-lines: 0px;
   box-shadow: 3px 6px 3.4px 0px #38171440 inset;
   /* margin-top: 5px;
@@ -180,8 +182,6 @@ p {
   .imgPig img {
     max-width: 320px;
     margin: 0 auto;
-    /* height: auto; */
-    /* padding-top: 0px; */
   }
   .contextBox {
     max-width: 100%;
