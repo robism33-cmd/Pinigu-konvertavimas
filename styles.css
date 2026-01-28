@@ -14,7 +14,7 @@ body {
   color: #fff;
   padding-left: 200px;
   margin-left: 100px;
-  gap: 100px;
+  gap: 50px;
 }
 .imgPig {
   padding-top: 100px;
@@ -39,7 +39,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 20px;
+  gap: 10px;
   /* teks perrašyti i media query */
   /* padding-top: 35%;
   font-size: 40px; */
@@ -126,8 +126,9 @@ label {
   background-color: black;
   line-height: 0px;
   box-shadow: 3px 6px 3.4px 0px #38171440 inset;
+  letter-spacing: 10px;
   margin-bottom: 0px;
-  padding-bottom: 0px;
+  padding-bottom: 10px;
 }
 #headSecond {
   color: white;
@@ -137,7 +138,7 @@ label {
   line-height: 0px;
   letter-spacing: 10px;
   max-lines: 0px;
-  background-color: black;
+  background-color: transparent;
   box-shadow: 3px 6px 3.4px 0px #38171440 inset;
 }
 
